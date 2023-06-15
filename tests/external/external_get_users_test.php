@@ -66,8 +66,8 @@ class external_get_users_test extends \externallib_advanced_testcase {
         return [$admin, $manager, $coursecreateor];
     }
 
+    // @runInSeparateProcesses
     public function test_get_users_site_config() {
-    @runTestsInSeparateProcesses
         [$admin] = $this->setup_users();
         $defaultuserimage = 'https://www.example.com/moodle/theme/image.php/_s/boost/core/1/u/f2';
 
