@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 namespace report_customsql\external;
-require_once(__DIR__ . '/../../external/get_users.php');
+require_once(__DIR__ . 'get_users.php');
 
 defined('MOODLE_INTERNAL') || die();
 
