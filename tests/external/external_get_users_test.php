@@ -15,13 +15,13 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 namespace report_customsql\external;
-require_once(__DIR__ . '/../../classes/external/get_users.php');
 
 defined('MOODLE_INTERNAL') || die();
 
 global $CFG;
 
 require_once($CFG->dirroot . '/webservice/tests/helpers.php');
+require_once(__DIR__ . '/../../classes/external/get_users.php');
 
 
 /**
