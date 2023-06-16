@@ -22,7 +22,6 @@ global $CFG;
 
 require_once($CFG->dirroot . '/webservice/tests/helpers.php');
 
-
 /**
  * Tests for the get_users web service.
  *
@@ -67,9 +66,6 @@ class external_get_users_test extends \externallib_advanced_testcase {
         return [$admin, $manager, $coursecreateor];
     }
 
-    /**
-     * @runInSeparateProcess
-    */
     public function test_get_users_site_config() {
         [$admin] = $this->setup_users();
         $defaultuserimage = 'https://www.example.com/moodle/theme/image.php/_s/boost/core/1/u/f2';
