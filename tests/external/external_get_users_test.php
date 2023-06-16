@@ -21,7 +21,6 @@ defined('MOODLE_INTERNAL') || die();
 global $CFG;
 
 require_once($CFG->dirroot . '/webservice/tests/helpers.php');
-require_once(__DIR__ . '/../../classes/external/get_users.php');
 
 
 /**
